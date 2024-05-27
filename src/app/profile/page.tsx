@@ -1,4 +1,4 @@
-import Profile from "../components/profile";
+import Profile from "../../components/profile";
 import {authOptions} from "../api/auth/[...nextauth]/route";
 import {getServerSession} from "next-auth/next";
 import {redirect} from "next/navigation";

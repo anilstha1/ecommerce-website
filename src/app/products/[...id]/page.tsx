@@ -1,9 +1,9 @@
-import Product from "@/app/models/productModel";
+import Product from "@/models/productModel";
 import Image from "next/image";
-import AddToCartBtn from "@/app/components/addToCartBtn";
-import {connect} from "@/app/dbConfig/dbConfig";
-import ProductDetails from "@/app/components/productDetails";
-import CommentCard from "@/app/components/commentCard";
+import AddToCartBtn from "@/components/addToCartBtn";
+import {connect} from "@/dbConfig/dbConfig";
+import ProductDetails from "@/components/productDetails";
+import CommentCard from "@/components/commentCard";
 
 interface productPageProps {
   params: {

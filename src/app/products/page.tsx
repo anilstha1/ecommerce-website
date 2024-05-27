@@ -1,6 +1,6 @@
-import ProductCard from "@/app/components/productCard";
-import Product from "@/app/models/productModel";
-import {connect} from "../dbConfig/dbConfig";
+import ProductCard from "@/components/productCard";
+import Product from "@/models/productModel";
+import {connect} from "../../dbConfig/dbConfig";
 
 async function getProducts() {
   try {

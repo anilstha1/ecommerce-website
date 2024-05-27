@@ -1,6 +1,6 @@
-import {connect} from "@/app/dbConfig/dbConfig";
+import {connect} from "@/dbConfig/dbConfig";
 import {NextRequest, NextResponse} from "next/server";
-import Product from "@/app/models/productModel";
+import Product from "@/models/productModel";
 
 connect();
 

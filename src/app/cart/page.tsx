@@ -2,7 +2,7 @@
 import Image from "next/image";
 import {useDispatch, useSelector} from "react-redux";
 import {AiOutlineLeft, AiOutlineRight} from "react-icons/ai";
-import {decreaseQuantity, increaseQuantity} from "../redux/shoppingslice";
+import {decreaseQuantity, increaseQuantity} from "../../redux/shoppingslice";
 import {useEffect, useState} from "react";
 import {useSession} from "next-auth/react";
 import {useRouter} from "next/navigation";

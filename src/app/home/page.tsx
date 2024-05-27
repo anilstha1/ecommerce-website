@@ -1,8 +1,8 @@
-import ProductCard from "@/app/components/productCard";
-import Product from "@/app/models/productModel";
+import ProductCard from "@/components/productCard";
+import Product from "@/models/productModel";
 import Image from "next/image";
-import {connect} from "../dbConfig/dbConfig";
-import Banner from "../components/banner";
+import {connect} from "../../dbConfig/dbConfig";
+import Banner from "../../components/banner";
 
 async function getProducts() {
   try {

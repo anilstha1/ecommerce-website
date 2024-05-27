@@ -1,6 +1,6 @@
-import ProductCard from "../components/productCard";
-import {connect} from "../dbConfig/dbConfig";
-import Product from "../models/productModel";
+import ProductCard from "../../components/productCard";
+import {connect} from "../../dbConfig/dbConfig";
+import Product from "../../models/productModel";
 
 interface SearchParams {
   searchParams: {query: string};

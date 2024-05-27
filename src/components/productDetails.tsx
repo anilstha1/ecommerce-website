@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import AddToCartBtn from "@/app/components/addToCartBtn";
+import AddToCartBtn from "@/components/addToCartBtn";
 import {Rating} from "@mui/material";
 import {useEffect, useState} from "react";
 import {useSelector} from "react-redux";

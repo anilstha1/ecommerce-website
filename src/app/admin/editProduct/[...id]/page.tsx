@@ -1,7 +1,7 @@
 import {authOptions} from "@/app/api/auth/[...nextauth]/route";
-import ProductForm from "@/app/components/productForm";
-import {connect} from "@/app/dbConfig/dbConfig";
-import Product from "@/app/models/productModel";
+import ProductForm from "@/components/productForm";
+import {connect} from "@/dbConfig/dbConfig";
+import Product from "@/models/productModel";
 import {getServerSession} from "next-auth/next";
 import {redirect} from "next/navigation";
 
